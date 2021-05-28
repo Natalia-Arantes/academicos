@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda HTML5 e CSS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+         *{
+            margin:0px;
+        }
+        ul{
+            list-style: none;
+            padding: 0px;
+            background-color: black;
+            text-align: center;
+        }
+        li{
+            display: inline-block;
+        }
+       img{
+           width: 100%;
+           size:cover;
+       }
+       header{
+        font-family: 'Anton', sans-serif;
+       }
+       h1{
+        text-align: center;
+        font-weight: bold;
+       }
+        a:link, a:visited{
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+            color: white;
+            background-repeat: no-repeat;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        img.icon{
+            width: 25px;
+            height: 25px;
+        }
+        div.face{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/face_gray.png');
+            background-size: cover;
+        }
+        div.face:hover{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/face.png');
+            background-size: cover;
+        }
+        div.insta{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/insta_gray.png');
+            background-size: cover;
+        }
+        div.insta:hover{
+            margin-top: 10px;
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/insta.png');
+            background-size: cover;
+        }
+        div.map{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/map_gray.png');
+            background-size: cover;
+        }
+        div.map:hover{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/map.png');
+            background-size: cover;
+        }
+        div.tt{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/twitter_gray.png');
+            background-size: cover;
+        }
+        div.tt:hover{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/twitter.png');
+            background-size: cover;
+        }
+        div.yt{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/youtube_gray.png');
+            background-size: cover;
+        }
+        div.yt:hover{
+            margin-top: 10px;
+            width: 25px;
+            height: 25px;
+            background-image: url('img/youtube.png');
+            background-size: cover;
+        }
+        div.menu{
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        header h1 {
+            transition: all 1s;    
+            text-align: center;   
+            padding: 40px; 
+        }
+
+        header h1:hover {
+            letter-spacing: 10px;
+        }
+
+        div.class1{
+            background-color:rgb(163, 162, 162);
+        }
+        .seção1{
+            background-color: rgb(212,210,212);
+            padding: 10px;
+        }
+        .seção2{
+            padding: 10px;
+            background-color: rgb(228, 227, 228);
+        }
+        .topo{
+            width:100%;
+        }
+        h1{
+            font-family: 'Anton', sans-serif;
+            text-align: center;
+            padding: 15px;
+        }
+        h2{
+           padding-top: 5px; 
+        }
+        div hr{
+            border-width: 0px; 
+	        height: 2px;
+	        border-top-width: 0px;
+            background:black;
+        }
+        main{
+            font-family: 'Anton', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        main p{
+            margin:20px;  
+        }
+        footer.foot {
+            background-color: black;
+            color: white;
+            font-family: 'Roboto';
+            margin-bottom: 0px;
+        }
+        p.dfoot{
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><div class="menu"><div class="face"></div><a href="#">Facebook</a></div></li>
+                <li><div class="menu"><div class="insta"></div><a href="#">Instagram</a></div></li>
+                <li><div class="menu"><div class="map"></div><a href="#">Google Maps</a></div></li>
+                <li><div class="menu"><div class="tt"></div><a href="#">Twitter</a></div></li>
+                <li><div class="menu"><div class="yt"></div><a href="#">YouTube</a></div></li>
+            </ul>
+        </nav>
+
+        <img src="img/topo.png" alt="Fundo">
+        <h1>Aprensendo HTML5 e CSS3</h1>
+
+
+
+    </header>
+    <main>
+        <div class="seção1">
+        <h2>Título desta seção</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam, tenetur eaque deserunt magni enim libero aperiam corrupti natus velit id, eum quod neque maxime impedit quae amet maiores quam?
+        Laboriosam repudiandae modi neque inventore assumenda consectetur optio sit maxime recusandae necessitatibus, minima nesciunt illum dicta incidunt facere? Optio doloribus explicabo est, commodi laborum unde sapiente libero debitis voluptas iste!
+        Tempore eum minus distinctio rerum neque ratione ipsa voluptatibus fugit saepe ipsum iusto, dolorem aspernatur, expedita laboriosam consequuntur. Esse consequatur sunt dolorem debitis itaque minus iste alias, a voluptates eveniet.
+        Temporibus, consequuntur? Libero maiores dolor neque velit impedit? Hic rerum nisi nulla, deleniti necessitatibus dignissimos praesentium officia quae harum eligendi voluptates recusandae quibusdam sed odio voluptatum optio numquam. Laborum, quisquam.
+        Expedita accusantium alias voluptatibus unde? Ab amet, exercitationem deleniti ipsam atque magnam. Cumque quidem doloribus minima inventore id assumenda saepe, nulla molestias natus accusamus, sit, labore excepturi explicabo dolores nisi.
+        Exercitationem error cupiditate nesciunt perspiciatis reprehenderit iste tempora commodi harum quia maiores quaerat velit, voluptas dolorum ratione. Praesentium doloribus libero labore! Eveniet voluptates nobis maxime. Iusto voluptatem quas ipsum minima.</p>
+        </div>
+        <div class="seção2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam, tenetur eaque deserunt magni enim libero aperiam corrupti natus velit id, eum quod neque maxime impedit quae amet maiores quam?
+        Laboriosam repudiandae modi neque inventore assumenda consectetur optio sit maxime recusandae necessitatibus, minima nesciunt illum dicta incidunt facere? Optio doloribus explicabo est, commodi laborum unde sapiente libero debitis voluptas iste!
+        Tempoorem ipsum dolor sit amet consectetur adipisicing elit. In magnam, tenetur eaque deserunt magni enim libero aperiam corrupti natus velit id, eum quod neque maxime impedit quae amet maiores quam?
+        Laborre eum minus distinctio rerum neque ratione ipsa voluptatibus fugit saepe ipsum iusto, dolorem aspernatur, expedita laboriosam consequuntur. Esse consequatur sunt dolorem debitis itaque minus iste alias, a voluptates eveniet.
+        Temporibus, consequuntur? Libero maiores dolor neque velit impedit? Hic rerum nisi nulla, deleniti necessitatibus dignissimos praesent ea repellat sit ipsa hic eum, distinctio cupiditate necessitatibus officiis iste vitae earum qui nihil natus? Sequi ipsam adipisci soluta.
+        Accusamus sit itaque totam minima consequuntur? Temporibus libero ex accusantium similique sed voluptatem dicta pariatur quam suscipit id fugiat saepe esse explicabo quis eum nam, magnam, minus nobis. Sint, sit.</p>
+        </div>
+        <div class="seção1">
+        <h2>Título desta seção</h2>
+        <hr>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus inventore asperiores aperiam delectus, ipsum quae minima error nihil? Inventore mollitia earum eos, eligendi magni esse odio cumque iure explicabo praesentium.
+        Hic eos consectetur incidunt quibusdam veritatis? Voluptatibus aperiam, atque voluptate perferendis, doloremque accusamus sunt est expedita et laudantium suscipit nemo! Quos dolores perspiciatis suscipit dignissimos explicabo, harum et ea nobis!
+        Cupiditate numquam at dolor. Asperiores voluptatum beatae excepturi eveniet! Blanditiis ratione illo sapiente natus optio? Asperiores omnis at totam, modi voluptates, ut ab itaque veniam magni eligendi consectetur, ex hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, officiis possimus? At numquam ab cumque possimus? Fugiat velit excepturi ex, totam perspiciatis, ipsum maxime aut nostrum sit, officia rem ratione.
+        Exercitationem eligendi, culpa unde similique mollitia cumque magnam quae quidem doloribus nesciunt, eaque rem voluptas repudiandae fugiat totam voluptatum consequatur et a minima delectus beatae nisi, maxime dolorum error. Inventore.
+        Quasi in maiores facere eum, alias distinctio vero quae nam. Dolores libero consequatur debitis blanditiis, iure magnam odit sunt quos inventore! Velit nihil aspernatur doloribus atque tempora saepe nemo unde!</p>
+        </div>
+        <div class="seção2">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio obcaecati commodi quia dolore ipsum aliquam. Odit suscipit hic reiciendis cum voluptatibus itaque quam aliquam eius qui magnam, commodi, officiis ut.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa architecto neque ipsam, adipisci ratione sed pariatur itaque reprehenderit impedit incidunt eos facilis dolore recusandae est quis repellat officia dicta animi!
+        Repellat autem quas beatae expedita. Et architecto vero quisquam commodi repudiandae, vel recusandae cupiditate. Sit, hic ullam nemo veritatis tenetur ex corrupti asperiores minus ipsa! Excepturi dolorem harum ratione doloribus! it voluptatum tempore dolores. Hic consequatur iusto repudiandae explicabo beatae architecto deleniti impedit rerum minus laborum esse blanditiis quos fugiat alias repellat adipisci officiis libero, inventore, quibusdam placeat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem fugiat quos consequuntur et soluta, voluptate aspernatur recusandae! Officiis aut officia optio laborum ad dolor omnis nobis quo sequi, facere doloremque.
+        Ipsum, nulla dolor ut odio ea et, a illum ullam, quos nemo recusandae neque repudiandae ex corporis incidunt provident modi dicta numquam dolorum nihil? Nihil porro eum consequatur eligendi rem.
+        Dolore odio omnis iusto. Esse cupiditate officiis corrupti. Eligendi sapiente doloremque necessitatibus odit quo consequuntur aliquam non, officiis itaque eos, quae, magni maxime illum repellendus velit sunt aliquid delectus quam!</p>
+        </div>  
+        </main>
+
+        <footer class="foot"> 
+         <p class="dfoot">Desenvolvido por Natalia Martins Arantes de Araújo</p>
+        </footer>
+</body>
+</html>
