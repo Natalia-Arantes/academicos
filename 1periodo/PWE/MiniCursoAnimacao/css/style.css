@@ -36,13 +36,13 @@ body{
 }
 
 .apresentacao{
+    background: url('../imagens/background.png');
     width: 100%;
     display: flex;
     height: calc(100vh - 43px);
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    background: url("../imagens/background.png");
 
 }
 
